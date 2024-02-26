@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Education</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body >
+    <!-- header----------------------------------------->
+    <nav
+        class="container-fluid navbar navbar-expand-lg bg-body-tertiary p-0 position-fixed top-0 z-1 bg-info bg-opacity-75">
+        <div class="container-fluid ">
+            <img src="images/logo.png" class="rounded-circle" width="50" height="50" alt="logo">
+            <div class="navbar-brand text-uppercase  fs-1 fw-bold border-end border-2 linear" href="#">
+                education </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Link</a></li>
+                    <li class=" dropdown  bg-opacity-50">
+                        <button type="button" class="btn btn-outline-primary bg-white text-primary dropdown-toggle"
+                            data-bs-toggle="dropdown">
+                            courses
+                        </button>
+                        <ul class="dropdown-menu bg-white bg-opacity-50 ">
+                            <li>
+                                <h5 class="dropdown-header text-primary" href="#">Offline course</h5>
+                            </li>
+                            <li><a class="dropdown-item" href="#">office Packages</a></li>
+                            <li><a class="dropdown-item" href="#">english</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li>
+                                <h5 class="dropdown-header text-primary" href="#">On line course</h5>
+                            </li>
+                            <li><a class="dropdown-item" href="#">java script</a></li>
+                            <li><a class="dropdown-item" href="#">python</a></li>
+                            <li><a class="dropdown-item" href="#">c++</a></li>
+                            <li><a class="dropdown-item" href="#">more...</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-primary" type="submit">Search</button>
+                    <button class="btn btn-primary ms-2" data-bs-toggle="modal" data-bs-target="#exampleModal"
+                        type="button">login</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <div class="modal fade  " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header bg-primary text-white">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">login form</h1>
+                    <button type="button" class="btn-close " data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body ">
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label text-primary fw-bold ">Email
+                            address</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1"
+                            placeholder="Enter Your Email">
+                        <p class="text-black-50">we`ll never share your email with anyone elae</p>
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlinput1" class="form-label text-primary fw-bold">password</label>
+                        <input type="password" class="form-control" id="exampleFormControlinput1" rows="3"
+                            placeholder="Enter Your Password"></input>
+                    </div>
+                    <div class="form-check form-switch">
+                        <input class="form-check-input" type="checkbox">
+                        <label>remmember me</label>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary me-auto" data-bs-dismiss="modal ">Close</button>
+                    <button type="button" class="btn btn-primary bg-primary">login</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="demo" class="carousel slide mt-5 pt-4" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="images/carousel-1.avif" width="100%" height="535" alt="Los Angeles" class="d-block"
+                    style="width:100%">
+                <div class="carousel-caption bg-info bg-opacity-25 rounded-4">
+                    <h3>courses</h3>
+                    <p>Learning helps individuals improve and develop their lives</p>
+                    <button class="btn btn-primary"> learn more </button>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="images/carousel-2.avif" width="100%" height="535" alt="Chicago" class="d-block"
+                    style="width:100%">
+                <div class="carousel-caption bg-info bg-opacity-25 rounded-4">
+                    <h3>courses</h3>
+                    <p>Learning helps individuals improve and develop their lives</p>
+                    <button class="btn btn-primary"> learn more </button>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="images/carousel-3.avif" width="100%" height="535" alt="New York" class="d-block"
+                    style="width:100%">
+                <div class="carousel-caption bg-info bg-opacity-25 rounded-4">
+                    <h3>courses</h3>
+                    <p>Learning helps individuals improve and develop their lives</p>
+                    <button class="btn btn-primary"> learn more </button>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="images/carousel-4.avif" width="100%" height="535" alt="New York" class="d-block"
+                    style="width:100%">
+                <div class="carousel-caption bg-info bg-opacity-25 rounded-4">
+                    <h3>courses</h3>
+                    <p>Learning helps individuals improve and develop their lives</p>
+                    <button class="btn btn-primary"> learn more </button>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+    <!-- ///////////////////////////////////////////////////// -->
+    <div class="container-fluid bg-info p-3 ps-5 border border-top-0 border-primary rounded-bottom-4">
+        <h2 class=" linear">course</h2>
+        <p class="text-white ">Training courses and educational materials. The academy offers a distinguished group of
+            high-quality
+            training courses and educational materials in several fields, including the basics of programming...</p>
+        <button type="button" class="btn btn-white bg-white text-info fw-bold p-2">learn more</button>
+    </div>
+    <!-- //////////////////////////////////////////////////// -->
+    <hr>
+    <div class=" p-5 text-center text-white color rounded-3 ">
+        <h1 class="text-capitalize">The website was designed with Bootstrap</h1>
+    </div>
+    <!-- /////////////////////////////////////////////////////// -->
+    <div class="accordion accordion-flush m-3" id="accordionFlushExample">
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed linear fw-bold" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                    front end</button></h2>
+            <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Front-end design of the website</div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed linear fw-bold" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                    back end</button></h2>
+            <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">back-end design of the website</div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed linear fw-bold" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                    full stack</button></h2>
+            <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Complete website design, front end and back end</div>
+            </div>
+        </div>
+    </div>
+    <!-- /////////////////////////////////////////////////////////// -->
+    <div class=" p-1 text-center text-white color  rounded-2">
+        <h1 class="text-capitalize">Translate from arabic to english</h1>
+    </div>
+    <div class="p-3 border border-primary rounded-2 bg-info">
+        <span class="fw-bold text-white fs-4">Write and Translate</span> <span class="fw-bold fs-4 text-secondary">Press
+            Here</span>
+        <button type="button" class="btn btn-primary d-block my-3" data-bs-toggle="modal" data-bs-target="#english"
+            data-bs-toggle="popover" title="copy to clipboard">copy</button>
+        <div class="modal" id="english">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <h4 class="modal-title text-capitalize">Translate From Arabic To English </h4>
+                    <div class="modal-body ms-auto">.تم نسخ النص </div>
+                    <div class="modal-body ms-auto">
+                        <button type="button" class="btn btn-primary py-2 px-5" data-bs-dismiss="modal">OK</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3">translate:</textarea>
+    </div>
+    </div>
+    <hr>
+    <!-- ///////////////////////////////////////////////////////////// -->
+    <div class=" p-1 text-center text-white color rounded-2">
+        <h1 class="text-capitalize">Translate from arabic to frensh</h1>
+    </div>
+    <div class="p-3 border border-primary rounded-2 bg-info">
+        <span class="fw-bold text-white fs-4">Write and Translate</span> <span class="fw-bold fs-4 text-secondary">Press
+            Here</span>
+        <button type="button" class="btn btn-primary d-block my-3" data-bs-toggle="modal"
+            data-bs-target="#frensh"  data-bs-toggle="popover" title="copy to clipboard">copy</button>
+        <div class="modal" id="frensh">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <h4 class="modal-title text-capitalize">Translate From Arabic To frensh </h4>
+                    <div class="modal-body ms-auto">.تم نسخ النص
+                    </div>
+                    <div class="modal-body ms-auto">
+                        <button type="button" class="btn btn-primary py-2 px-5" data-bs-dismiss="modal">OK</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3">translate:</textarea>
+    </div>
+    </div>
+    <hr>
+    <!-- ////////////////////////////////////////////////////////////// -->
+    <div class=" p-1 text-center text-white color rounded-2">
+        <h1 class="text-capitalize">Translate from arabic to german</h1>
+    </div>
+    <div class="p-3 border border-primary rounded-2 bg-info">
+        <span class="fw-bold text-white fs-4">Write and Translate</span> <span class="fw-bold fs-4 text-secondary">Press
+            Here</span>
+        <button type="button" class="btn btn-primary d-block my-3" data-bs-toggle="modal"
+            data-bs-target="#german"  data-bs-toggle="popover" title="copy to clipboard">copy</button>
+        <div class="modal" id="german">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <h4 class="modal-title text-capitalize">Translate From Arabic To german </h4>
+                    <div class="modal-body ms-auto">.تم نسخ النص
+                    </div>
+                    <div class="modal-body ms-auto">
+                        <button type="button" class="btn btn-primary py-2 px-5" data-bs-dismiss="modal">OK</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3">translate:</textarea>
+    </div>
+    </div>
+    <hr>
+    <!-- //////////////////////////////////////////////// -->
+    <div class="back1"></div>
+    <div class=" p-1 text-center text-white color rounded-2 mb-5">
+        <h1 class="text-capitalize linear">learning courses</h1>
+    </div>
+    <!-- //////////////////////////////////////////// -->
+    <div class=" d-flex justify-content-around  row">
+        <div class="card col-12 col-md-6 col-lg-3 card-hov">
+            <div class="card-body ">
+                <img class="img-fluid" src="images/course-1.avif" alt="image course">
+                <div class="fw-bold text-uppercase text-primary fs-3 d-inline">design courses</div>
+                <div class="card-text  pb-2  fs-5 text-primary">Advance your education with us</div>
+                <button class="btn btn-primary text-white  fw-bold text-uppercase col-12 z-5 ">Subscribe</button>
+            </div>
+        </div>
+        <div class="card col-12 col-md-6 col-lg-3 card-hov ">
+            <div class="card-body ">
+                <img class="img-fluid" src="images/course-1.avif" alt="image course">
+                <div class="fw-bold text-uppercase text-primary fs-3 d-inline">design courses</div>
+                <div class="card-text  pb-2  fs-5 text-primary">Advance your education with us</div>
+                <button class="btn btn-primary text-white  fw-bold text-uppercase col-12  ">Subscribe</button>
+            </div>
+        </div>
+        <div class="card col-12 col-md-6 col-lg-3 card-hov">
+            <div class="card-body ">
+                <img class="img-fluid" src="images/course-1.avif" alt="image course">
+                <div class="fw-bold text-uppercase text-primary fs-3 d-inline">design courses</div>
+                <div class="card-text  pb-2  fs-5 text-primary">Advance your education with us</div>
+                <button class="btn btn-primary text-white  fw-bold text-uppercase col-12  ">Subscribe</button>
+            </div>
+        </div>
+    </div>
+    <div class="mt-5 d-flex justify-content-around  row">
+        <div class="card col-12 col-md-6 col-lg-3 card-hov ">
+            <div class="card-body ">
+                <img class="img-fluid" src="images/course-1.avif" alt="image course">
+                <div class="fw-bold text-uppercase text-primary fs-3 d-inline">design courses</div>
+                <div class="card-text  pb-2  fs-5 text-primary">Advance your education with us</div>
+                <button class="btn btn-primary text-white  fw-bold text-uppercase col-12  ">Subscribe</button>
+            </div>
+        </div>
+        <div class="card col-12 col-md-6 col-lg-3 card-hov  ">
+            <div class="card-body ">
+                <img class="img-fluid" src="images/course-1.avif" alt="image course">
+                <div class="fw-bold text-uppercase text-primary fs-3 d-inline">design courses</div>
+                <div class="card-text  pb-2  fs-5 text-primary">Advance your education with us</div>
+                <button class="btn btn-primary text-white  fw-bold text-uppercase col-12  ">Subscribe</button>
+            </div>
+        </div>
+        <div class="card col-12 col-md-6 col-lg-3 card-hov  ">
+            <div class="card-body ">
+                <img class="img-fluid" src="images/course-1.avif" alt="image course">
+                <div class="fw-bold text-uppercase text-primary fs-3 d-inline">design courses</div>
+                <div class="card-text  pb-2  fs-5 text-primary">Advance your education with us</div>
+                <button class="btn btn-primary text-white  fw-bold text-uppercase col-12  ">Subscribe</button>
+            </div>
+        </div>
+    </div>
+    <div class="mt-5 d-flex justify-content-around  row">
+        <div class="card col-12 col-md-6 col-lg-3 card-hov">
+            <div class="card-body ">
+                <img class="img-fluid" src="images/course-1.avif" alt="image course">
+                <div class="fw-bold text-uppercase text-primary fs-3 d-inline">design courses</div>
+                <div class="card-text  pb-2  fs-5 text-primary">Advance your education with us</div>
+                <button class="btn btn-primary text-white  fw-bold text-uppercase col-12  ">Subscribe</button>
+            </div>
+        </div>
+        <div class="card col-12 col-md-6 col-lg-3  card-hov">
+            <div class="card-body ">
+                <img class="img-fluid" src="images/course-1.avif" alt="image course">
+                <div class="fw-bold text-uppercase text-primary fs-3 d-inline">design courses</div>
+                <div class="card-text  pb-2  fs-5 text-primary">Advance your education with us</div>
+                <button class="btn btn-primary text-white  fw-bold text-uppercase col-12  ">Subscribe</button>
+            </div>
+        </div>
+    </div>
+    <!-- ///////////////////// -->
+    <div class="back2"></div>
+    <hr>
+    <div class=" p-3 text-center bg-info text-white  rounded-3">
+        <h1 class="text-capitalize linear">thanks for</h1>
+    </div>
+    <!-- ///////////////////////////// -->
+    <div class="container mt-4 ">
+        <div class="row justify-content-evenly ps-2 pe-2">
+            <div class="  card rounded-5 col-12 col-md-6 col-lg-4 text-white thanks p-0 ">
+                <img class="card-img-top rounded-5" src="images/photo-1.jpg" alt="Card image">
+                <div class="card-img-overlay rounded-5 img-overlay p-4 ">
+                    <h4 class="card-title">Designer of this web site</h4>
+                    <p class="card-text"><i class="fa-regular fa-clock"></i> February,15,2024</p>
+                    <div class="margin-photo">
+                        <img class="rounded-circle border border-4 border-secondary " src="images/photo-1.jpg"
+                            width="80" height="110" alt="Card image">
+                        <h4>Eng. Tarek Saad</h4>
+                        <p>Web designer</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card rounded-5 col-12 col-md-6 col-lg-4 text-white thanks p-0 ">
+                <img class="card-img-top rounded-5" src="images/photo-2.jpg" alt="Card image">
+                <div class="card-img-overlay rounded-5 img-overlay p-4 ">
+                    <h4 class="card-title">All thanks and appreciation</h4>
+                    <p class="card-text mb-6"><i class="fa-regular fa-clock"></i> February,15,2024</p>
+                    <div class="margin-photo">
+                        <img class=" rounded-circle border border-4 border-secondary" src="images/photo-2.jpg"
+                            width="80" height="110" alt="Card image">
+                        <h4>Eng. islam mohamed</h4>
+                        <p>Website design teacher</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card rounded-5 col-12 col-md-6 col-lg-4 text-white thanks p-0  ">
+                <img class="card-img-top rounded-5 " src="images/photo-3.jpg" height="100%" alt="Card image">
+                <div class="card-img-overlay rounded-5 img-overlay p-4 ">
+                    <h4 class="card-title">All thanks and appreciation</h4>
+                    <p class="card-text mb-6"><i class="fa-regular fa-clock"></i> February,15,2024</p>
+                    <div class="margin-photo">
+                        <img class=" rounded-circle border border-4 border-secondary" src="images/photo-3.jpg"
+                            width="80" height="110" alt="Card image">
+                        <h4>SEF Academy</h4>
+                        <p>Programming Learning academy</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <!-- ///////////////////////////////////// -->
+    <p class="container fw-bold fs-1  text-center  linear">Courses</p>
+    <div class="container">
+        <div class="row box p-0 rounded-5 overflow-hidden">
+            <div class="col-12 col-md-8 ps-5 engl">
+                <h2 class="fw-bold fs-1 linar mt-4 text-primary"> Course English</h2>
+                <div><i class="fa-solid fa-calendar-days"></i> February,16,2024</div>
+                <div class="line bg-primary"></div>
+                <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque reiciendis adipisci atque
+                    iusto debitispariatur voluptatibus corporis vel dicta possimus illum excepturi aperiam magni commodi
+                    vero ratione accusamus, quisquam quos?</p>
+                <div class="btns">
+                    <button class="btn border-none btn-color "><i class="fa-solid fa-earth-asia"></i> Language</button>
+                    <button class="btn btn-color"><i class="fa-regular fa-clock"></i> tow Month</button>
+                    <button class="btn btn-clr  "><i class="fa-brands fa-hubspot"></i> subscription</button>
+                </div>
+            </div>
+            <div class="col-12 col-md-4 p-0 ">
+                <img class="img-path img-fluid overflow-hidden" src="images/img-1.avif" alt="img course">
+            </div>
+        </div>
+        <div class="row box p-0 rounded-5 overflow-hidden mt-5">
+            <div class="col-12 col-md-4 p-0 ">
+                <img class="img-path img-path2 img-fluid" src="images/img-1.avif" alt="img course">
+            </div>
+            <div class="col-12 col-md-8 ps-5 engl">
+                <h2 class="fw-bold fs-1 linar mt-4 text-success"> Course English</h2>
+                <div><i class="fa-solid fa-calendar-days"></i> February,16,2024</div>
+                <div class="line bg-success"></div>
+                <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque reiciendis adipisci atque
+                    iusto debitispariatur voluptatibus corporis vel dicta possimus illum excepturi aperiam magni commodi
+                    vero ratione accusamus, quisquam quos?</p>
+                <div class="btns">
+                    <button class="btn border-none btn-color "><i class="fa-solid fa-earth-asia"></i> Language</button>
+                    <button class="btn btn-color"><i class="fa-regular fa-clock"></i> tow Month</button>
+                    <button class="btn btn-clr btn-clr2"><i class="fa-brands fa-hubspot"></i> subscription</button>
+                </div>
+            </div>
+        </div>
+        <div class="row box p-0 rounded-5 overflow-hidden mt-5">
+            <div class="col-12 col-md-8 ps-5 engl">
+                <h2 class="fw-bold fs-1 linar mt-4 color-1"> Course English</h2>
+                <div><i class="fa-solid fa-calendar-days"></i> February,16,2024</div>
+                <div class="line color-2"></div>
+                <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque reiciendis adipisci atque
+                    iusto debitispariatur voluptatibus corporis vel dicta possimus illum excepturi aperiam magni commodi
+                    vero ratione accusamus, quisquam quos?</p>
+                <div class="btns">
+                    <button class="btn border-none btn-color "><i class="fa-solid fa-earth-asia"></i> Language</button>
+                    <button class="btn btn-color"><i class="fa-regular fa-clock"></i> tow Month</button>
+                    <button class="btn btn-clr btn-clr3 "><i class="fa-brands fa-hubspot"></i> subscription</button>
+                </div>
+            </div>
+            <div class="col-12 col-md-4 p-0 ">
+                <img class="img-path img-fluid" src="images/img-1.avif" alt="img course">
+            </div>
+        </div>
+        <div class="row box p-0 rounded-5 overflow-hidden mt-5">
+            <div class="col-12 col-md-4 p-0 ">
+                <img class="img-path img-path2 img-fluid" src="images/img-1.avif" alt="img course">
+            </div>
+            <div class="col-12 col-md-8 ps-5 engl">
+                <h2 class="fw-bold fs-1 linar mt-4 text-dark"> Course English</h2>
+                <div><i class="fa-solid fa-calendar-days"></i> February,16,2024</div>
+                <div class="line bg-dark"></div>
+                <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque reiciendis adipisci atque
+                    iusto debitispariatur voluptatibus corporis vel dicta possimus illum excepturi aperiam magni commodi
+                    vero ratione accusamus, quisquam quos?</p>
+                <div class="btns">
+                    <button class="btn border-none btn-color "><i class="fa-solid fa-earth-asia"></i> Language</button>
+                    <button class="btn btn-color"><i class="fa-regular fa-clock"></i> tow Month</button>
+                    <button class="btn btn-clr btn-clr4  "><i class="fa-brands fa-hubspot"></i> subscription</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- //////////////////////////////////////////////// -->
+    <p class=" fw-bold fs-1  text-center  linear mb-4 mt-4">join us</p>
+    <div class="container text-center mb-5">
+        <div class="row">
+            <div class="col-8 col-sm-5 col-md-3 m-auto box p-2 mb-3 rounded-4" style="width: 250px;">
+                <h2 class="text-center  color-1 mb-3">Subscribe Now</h2>
+                <img src="images/linkedin.jpg" alt="linkedin" class="rounded-4 box" width="100" height="100">
+                <h3 class="text-center color-1 mt-3  ">Go To Like</h3>
+            </div>
+            <div class="col-8 col-sm-5 col-md-3 m-auto box p-2 mb-3 rounded-4" style="width: 250px;">
+                <h2 class="text-center color-1 mb-3">Subscribe Now</h2>
+                <img src="images/twitar.jpg" alt="linkedin" class="rounded-4 box" width="100" height="100">
+                <h3 class="text-center color-1 mt-3  ">Go To Like</h3>
+            </div>
+            <div class="col-8 col-sm-5 col-md-3 m-auto box p-2 mb-3 rounded-4" style="width: 250px;">
+                <h2 class="text-center color-1 mb-3">Subscribe Now</h2>
+                <img src="images/whatsApp.jpg" alt="linkedin" class="rounded-4 box" width="100" height="100">
+                <h3 class="text-center color-1 mt-3  ">Go To Like</h3>
+            </div>
+            <div class="col-8 col-sm-5 col-md-3 m-auto box p-2 mb-3 rounded-4" style="width: 250px;">
+                <h2 class="text-center color-1 mb-3">Subscribe Now</h2>
+                <img src="images/instagram.jpg" alt="linkedin" class="rounded-4 box" width="100" height="100">
+                <h3 class="text-center color-1 mt-3  ">Go To Like</h3>
+            </div>
+        </div>
+    </div>
+    <!-- //////////////////////////////////////// -->
+    <div class="position-relative">
+        <div class="position-absolute position-fixed bottom-0 end-0 pe-4 pb-5 mb-5 icon-hover">
+            <a href="#" class="text-decoration-none"><i class="fa-brands fa-twitter d-block fs-1 mb-3"></i></a>
+            <a href="#" class="text-decoration-none"><i class="fa-brands fa-facebook d-block fs-1 mb-3"></i></a>
+            <a href="#" class="text-decoration-none"><i class="fa-brands fa-linkedin d-block fs-1 mb-3"></i></a>
+            <a href="#" class="text-decoration-none"><i class="fa-brands fa-whatsapp d-block fs-1 mb-3"></i></a>
+            <a href="#" class="text-decoration-none"><i class="fa-brands fa-instagram d-block fs-1 mb-3"></i></a>
+        </div>
+    </div>
+    <!-- ///////////////////////////////////////////// -->
+    <footer class="  pt-4 pb-4">
+        <div class="row  m-auto  text-center">
+            <div class="col-10 text-white col-12 col-md-6 col-lg-4">
+                <hr>
+                <img src="images/logo.png" width="80" height="80">
+                <span class="fs-5 fw-bold"> Academy Education</span>
+                <hr>
+                <p>Tel : 00000000000</p>
+                <p>Address : EGYPT</p>
+                <p>Fax : 00000000000</p>
+            </div>
+            <div class=" text-white col-12 col-md-6 col-lg-4 ">
+                <hr>
+                <img src="images/logo.png" width="80" height="80">
+                <span class="fs-5 fw-bold">Importants links</span>
+                <hr>
+                <p><a class="text-decoration-none" href="#"> Visit us</a></p>
+                <p><a class="text-decoration-none" href="#"> Take alook</a></p>
+                <p><a class="text-decoration-none" href="#"> Your health is more important</a></p>
+            </div>
+            <div class=" text-white col-12 col-md-6 col-lg-4">
+                <hr>
+                <img src="images/logo.png" width="80" height="80">
+                <span class="fs-5 fw-bold">Vision</span>
+                <hr>
+                <p>Serveices for all</p>
+                <p>Provide best serveices</p>
+                <p>You will be better than before</p>
+            </div>
+        </div>
+        <hr>
+        <P class="text-center linear fs-5 fw-bold">COPYRIGHT &COPY;2024 TAREK SAAD.COOD ACADEMY EDUCATION. ALL RIGHTS</P>
+    </footer>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
